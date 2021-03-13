@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Call For Duty</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Call For Dutyk</string>
+    <string name="nav_header_subtitle">VD</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_piumber">piumber</string>
+    <string-array name="vowels_item_names">
+        <item>Mayur powar</item>
+        <item>Mayur powar2</item>
+        <item>Mayur powar3</item>
+        <item>Mayur powar4</item>
+        <item>Mayur powar5</item>
+        <item>Mayur powar6</item>
+        <item>Mayur powar7</item>
+        <item>Mayur powar8</item>
+        <item>Mayur powar9</item>
+        <item>Mayur powar10</item>
+        <item>Mayur powar11</item>
+        <item>Mayur powar12</item>
+
+    </string-array>
+    <array name="vowels_item_pics">
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+        <item>@drawable/powar</item>
+    </array>
+    <string-array name="vowels_item_description">
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+        <item>Plumber</item>
+    </string-array>
+    <string-array name="setting_string">
+        <item>Text size</item>
+        <item>Change language</item>
+        <item>Feed back</item>
+    </string-array>
+    <string-array name="item_names">
+        <item>vinod kamble</item>
+        <item>vinod kamble2</item>
+        <item>vinod kamble3</item>
+        <item>vinod kamble4</item>
+        <item>vinod kamble5</item>
+        <item>vinod kamble6</item>
+        <item>vinod kamble7</item>
+        <item>vinod kamble8</item>
+        <item>vinod kamble9</item>
+        <item>vinod kamble10</item>
+        <item>vinod kamble11</item>
+        <item>vinod kamble12</item>
+
+    </string-array>
+    <array name="item_pics">
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+        <item>@drawable/vinod</item>
+    </array>
+    <string-array name="item_description">
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+        <item>Electricians</item>
+    </string-array>
+    <array name="item_rates">
+        <item>@drawable/rateing5</item>
+        <item>@drawable/rateing4</item>
+        <item>@drawable/rateing3</item>
+        <item>@drawable/rateing2</item>
+        <item>@drawable/rateing1</item>
+        <item>@drawable/rateing1</item>
+        <item>@drawable/rateing2</item>
+        <item>@drawable/rateing3</item>
+        <item>@drawable/rateing4</item>
+        <item>@drawable/rateing5</item>
+        <item>@drawable/rateing5</item>
+        <item>@drawable/rateing5</item>
+    </array>
+</resources>

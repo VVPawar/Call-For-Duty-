@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "754988234973",
+    "firebase_url": "https://fir-phoneauthentication-eb21e.firebaseio.com",
+    "project_id": "fir-phoneauthentication-eb21e",
+    "storage_bucket": "fir-phoneauthentication-eb21e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754988234973:android:3fd997bc4984faff",
+        "android_client_info": {
+          "package_name": "com.example.vipul.firebasephoneauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754988234973-fcvdl48up4goahalkk4soqqhkbs78tjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vipul.firebasephoneauthentication",
+            "certificate_hash": "efd1520cf1617a8ff47a5f2695ddf4a2ca73e744"
+          }
+        },
+        {
+          "client_id": "754988234973-6t4asc1aktgma77a805h998nshmsch0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQm2DG2UDXTNxuSCXW1N3Zh5EfZLvYyUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754988234973-6t4asc1aktgma77a805h998nshmsch0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754988234973:android:593c7f9195363311",
+        "android_client_info": {
+          "package_name": "com.example.vipul.hireforwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754988234973-rvi478a0p1m0mlhj10csqdbos6hu4iil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vipul.hireforwork",
+            "certificate_hash": "efd1520cf1617a8ff47a5f2695ddf4a2ca73e744"
+          }
+        },
+        {
+          "client_id": "754988234973-6t4asc1aktgma77a805h998nshmsch0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQm2DG2UDXTNxuSCXW1N3Zh5EfZLvYyUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754988234973-6t4asc1aktgma77a805h998nshmsch0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

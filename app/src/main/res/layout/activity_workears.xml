@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workears">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/item_pic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="desc"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:id="@+id/item_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_pic"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="10dp"
+                android:text="Name of worker"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_pic"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/item_name1"
+                android:paddingBottom="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_name1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="10dp"
+                android:text="Type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_typen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_pic"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="57dp"
+                android:layout_toRightOf="@+id/item_name1"
+                android:paddingBottom="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_pho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_Type"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="10dp"
+                android:text="Phone No."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_phoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_Type"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginLeft="78dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/item_pho"
+                android:paddingBottom="10dp"
+                android:text="9595979680"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/agep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_pho"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Age"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_Type"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="198dp"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="55dp"
+                android:layout_toRightOf="@+id/item_pho"
+                android:paddingBottom="10dp"
+                android:text="21"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Genderp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agep"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Gender"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_Ge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_Type"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="201dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginTop="100dp"
+                android:layout_toRightOf="@+id/item_pho"
+                android:paddingBottom="10dp"
+                android:text="Male"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Expranced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Genderp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Experience"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/item_EXp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_Type"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="201dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginTop="145dp"
+                android:layout_toRightOf="@+id/item_pho"
+                android:paddingBottom="10dp"
+                android:text="5 year"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Expranced"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="rating"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/item_Ra"
+                android:layout_width="205dp"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@+id/Expranced"
+                android:layout_marginLeft="68dp"
+                android:layout_marginBottom="-47dp"
+                android:layout_toRightOf="@+id/Ratings"
+                android:contentDescription="desc" />
+
+            <TextView
+                android:id="@+id/itemsq_EXp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ratings"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="199dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="24dp"
+                android:layout_toRightOf="@+id/item_pho"
+                android:paddingBottom="10dp"
+                android:text="Available"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Expranced"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="60dp"
+                android:paddingBottom="10dp"
+                android:text="Status"
+                android:textSize="20sp" />
+
+                <ImageButton
+                    android:layout_below="@+id/itemsq_EXp"
+                    android:id="@+id/Callid"
+                    android:paddingStart="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/calll"
+                    android:background="@color/fullgray"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:layout_below="@+id/itemsq_EXp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/Chatid"
+                    android:paddingStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chatee"
+                    android:background="@color/fullgray"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/Callid"/>
+                <ImageButton
+                    android:layout_below="@+id/itemsq_EXp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/Locid"
+                    android:paddingStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loca"
+                    android:background="@color/fullgray"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/Chatid"/>
+                <ImageButton
+                    android:layout_below="@+id/itemsq_EXp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/Ratid"
+                    android:paddingStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rate"
+                    android:background="@color/fullgray"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/Locid"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
